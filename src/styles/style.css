@@ -8,11 +8,13 @@
 }
 
 main {
-  height: 100%;
+  height: 100vh;
 }
 
 .navbar {
   display: flex;
+  width: 100%;
+  position: absolute;
   justify-content: space-between;
   align-items: center;
   padding: 8px 48px;
@@ -39,6 +41,7 @@ main {
 
 .container {
   display: flex;
+  align-items: center;
   height: 100%;
 }
 
@@ -94,4 +97,18 @@ main {
 
 .kotak-2 button:hover {
   background-color: rgb(60, 60, 60);
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.content h1 {
+  margin-bottom: 12px;
+  font-size: 3rem;
+}
+
+.content p {
+  line-height: 1.5;
 }
